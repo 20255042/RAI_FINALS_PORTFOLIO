@@ -19,13 +19,11 @@ const Certificate = () => {
           <Card style={{ backgroundColor: "#0b2028", border: "1px solid #1a3038" }}>
             <Card.Img
               variant="top"
-              src={Cert1}
+              src={Cert6}
               alt="Certificate"
             />
             <Card.Body>
-              <Card.Title style={{ color: "#3c9dc7" }}>Certificate Title</Card.Title>
-              <Card.Text style={{ color: "#C6BFBB" }}>Issued by: Organization Name</Card.Text>
-              <Card.Text style={{ color: "#C6BFBB" }}>Date: January 2025</Card.Text>
+              <Card.Title style={{ color: "#3c9dc7" }}>AI Class ASEAN</Card.Title>
             </Card.Body>
           </Card>
         </Col>
@@ -38,9 +36,7 @@ const Certificate = () => {
               alt="Certificate"
             />
             <Card.Body>
-              <Card.Title style={{ color: "#3c9dc7" }}>Certificate Title</Card.Title>
-              <Card.Text style={{ color: "#C6BFBB" }}>Issued by: Organization Name</Card.Text>
-              <Card.Text style={{ color: "#C6BFBB" }}>Date: January 2025</Card.Text>
+              <Card.Title style={{ color: "#3c9dc7" }}>ETEEAP</Card.Title>
             </Card.Body>
           </Card>
         </Col>
@@ -52,9 +48,7 @@ const Certificate = () => {
               alt="Certificate"
             />
             <Card.Body>
-              <Card.Title style={{ color: "#3c9dc7" }}>Certificate Title</Card.Title>
-              <Card.Text style={{ color: "#C6BFBB" }}>Issued by: Organization Name</Card.Text>
-              <Card.Text style={{ color: "#C6BFBB" }}>Date: January 2025</Card.Text>
+              <Card.Title style={{ color: "#3c9dc7" }}>Intro to Cybersecurity</Card.Title>
             </Card.Body>
           </Card>
         </Col>
@@ -66,9 +60,7 @@ const Certificate = () => {
               alt="Certificate"
             />
             <Card.Body>
-              <Card.Title style={{ color: "#3c9dc7" }}>Certificate Title</Card.Title>
-              <Card.Text style={{ color: "#C6BFBB" }}>Issued by: Organization Name</Card.Text>
-              <Card.Text style={{ color: "#C6BFBB" }}>Date: January 2025</Card.Text>
+              <Card.Title style={{ color: "#3c9dc7" }}>Freelancing for Starters</Card.Title>
             </Card.Body>
           </Card>
         </Col>
@@ -80,9 +72,7 @@ const Certificate = () => {
               alt="Certificate"
             />
             <Card.Body>
-              <Card.Title style={{ color: "#3c9dc7" }}>Certificate Title</Card.Title>
-              <Card.Text style={{ color: "#C6BFBB" }}>Issued by: Organization Name</Card.Text>
-              <Card.Text style={{ color: "#C6BFBB" }}>Date: January 2025</Card.Text>
+              <Card.Title style={{ color: "#3c9dc7" }}>Cisco Packet Tracer</Card.Title>
             </Card.Body>
           </Card>
         </Col>
@@ -90,13 +80,11 @@ const Certificate = () => {
           <Card style={{ backgroundColor: "#0b2028", border: "1px solid #1a3038" }}>
             <Card.Img
               variant="top"
-              src={Cert6}
+              src={Cert1}
               alt="Certificate"
             />
             <Card.Body>
-              <Card.Title style={{ color: "#3c9dc7" }}>Certificate Title</Card.Title>
-              <Card.Text style={{ color: "#C6BFBB" }}>Issued by: Organization Name</Card.Text>
-              <Card.Text style={{ color: "#C6BFBB" }}>Date: January 2025</Card.Text>
+              <Card.Title style={{ color: "#3c9dc7" }}>Social Orientation Prog.</Card.Title>
             </Card.Body>
           </Card>
         </Col>
