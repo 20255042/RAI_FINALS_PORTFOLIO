@@ -1,4 +1,3 @@
-import React from "react";
 import { Container, Row, Col, Card } from "react-bootstrap";
 import Cert1 from './images/cert1.png';
 import Cert2 from './images/cert2.png';
