@@ -2,7 +2,6 @@ import { BrowserRouter as Router, Routes, Route} from "react-router-dom"
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Profile from "./pages/Profile";
 import Project from "./pages/Project";
@@ -18,7 +17,7 @@ function App(){
     <Router>
      <Navbar bg="dark" data-bs-theme="dark">
       <Container>
-        <Navbar.Brand href="/">Raiz</Navbar.Brand>
+        <Navbar.Brand href="/">Rai, Sandara C.</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
