@@ -17,7 +17,7 @@ function App(){
     <Router>
      <Navbar bg="dark" data-bs-theme="dark">
       <Container>
-        <Navbar.Brand href="/">Rai, Sandara C.</Navbar.Brand>
+        <Navbar.Brand href="#/">Rai, Sandara C.</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">

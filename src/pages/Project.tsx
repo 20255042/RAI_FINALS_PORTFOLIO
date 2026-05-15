@@ -5,7 +5,7 @@ const Projects = () => {
     <Container className="py-5">
 
       <h1>Projects</h1>
-      <p>Here are my projects in APTECH </p>
+      <p>In this page, you can view my projects in the whole semester. We used React, TypeScript, and other modern web technologies to build these applications.</p>
 
       {/* FIRST GRADING */}
       <h2 className="mt-4">First Grading</h2>

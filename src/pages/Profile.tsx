@@ -12,7 +12,7 @@ function Profile() {
                 <Col md={7} className='text-center text-md-start'>
 
                 <h1>HELLO! I'M SANDARA</h1>
-                <h1>IDA4 |</h1>
+                <h1>IDA4 SIT STUDENT |</h1>
                 <p>I am a BSIT student who has a passion for designing and dreams of becoming a web designer or front-end developer. I may be struggling this semester but I am determined to keep going and achieve my goals in the future</p>
                 
                 </Col>
