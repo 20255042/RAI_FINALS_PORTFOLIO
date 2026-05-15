@@ -23,7 +23,6 @@ const Contact: React.FC = () => {
   const [status, setStatus] =
     useState("");
 
-  // HANDLE INPUT CHANGE
   const handleChange = (
     e: React.ChangeEvent<
       HTMLInputElement | HTMLTextAreaElement
@@ -35,7 +34,6 @@ const Contact: React.FC = () => {
     });
   };
 
-  // VALIDATION
   const validate = () => {
     if (
       !formData.name ||
@@ -54,7 +52,6 @@ const Contact: React.FC = () => {
     return "";
   };
 
-  // SUBMIT FORM
   const handleSubmit = async (
     e: React.FormEvent
   ) => {
@@ -70,7 +67,6 @@ const Contact: React.FC = () => {
     setLoading(true);
     setStatus("");
 
-    // STEP 1: SEND EMAIL USING EMAILJS
     try {
       const response = await emailjs.send(
         "service_a7xxij8",
@@ -96,7 +92,6 @@ const Contact: React.FC = () => {
 
     }
 
-    // STEP 2: SAVE TO MONGODB
     try {
       const res = await fetch(
         `${import.meta.env.VITE_API_URL}/contact`,
@@ -119,7 +114,6 @@ const Contact: React.FC = () => {
 
       setStatus("Message sent successfully!");
 
-      // CLEAR FORM
       setFormData({
         name: "",
         email: "",
@@ -144,17 +138,17 @@ const Contact: React.FC = () => {
     <Container className="py-5">
       <Row className="align-items-center">
 
-        {/* LEFT — TEXT */}
+        
         <Col md={5} className="mb-4 mb-md-0">
           <h1>Let's Chat.</h1>
           <p>Let me know how we can best serve you.</p>
         </Col>
 
-        {/* RIGHT — FORM */}
+        
         <Col md={7}>
           <form onSubmit={handleSubmit}>
 
-            {/* NAME */}
+          
             <Form.Group className="mb-3">
               <Form.Label>Your Name</Form.Label>
               <Form.Control
@@ -166,7 +160,6 @@ const Contact: React.FC = () => {
               />
             </Form.Group>
 
-            {/* EMAIL */}
             <Form.Group className="mb-3">
               <Form.Label>Your Email</Form.Label>
               <Form.Control
@@ -178,7 +171,6 @@ const Contact: React.FC = () => {
               />
             </Form.Group>
 
-            {/* MESSAGE */}
             <Form.Group className="mb-3">
               <Form.Label>Message</Form.Label>
               <Form.Control
@@ -191,7 +183,6 @@ const Contact: React.FC = () => {
               />
             </Form.Group>
 
-            {/* BUTTON */}
             <Button
               type="submit"
               variant="outline-info"
@@ -203,7 +194,6 @@ const Contact: React.FC = () => {
 
           </form>
 
-          {/* STATUS */}
           <p className="mt-3">{status}</p>
 
         </Col>

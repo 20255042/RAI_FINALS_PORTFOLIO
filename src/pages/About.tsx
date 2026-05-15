@@ -10,16 +10,16 @@ const About = () => {
 
       <Row className="mt-4">
         <Col md={6}>
-          <h5 style={{ color: "#3c9dc7" }}>Name</h5>
+          <h5>Name</h5>
           <p>Sandara C. Rai</p>
 
-          <h5 style={{ color: "#3c9dc7" }}>Course</h5>
+          <h5>Course</h5>
           <p>Bachelor of Science in Information Technology (BSIT)</p>
 
-          <h5 style={{ color: "#3c9dc7" }}>Interests</h5>
+          <h5>Interests</h5>
           <p>I like designing and I want to be a future web designer or front-end developer.</p>
 
-          <h5 style={{ color: "#3c9dc7" }}>My Journey</h5>
+          <h5>My Journey</h5>
           <p>
             This semester I am having trouble learning but I swear I won't quit
             and will achieve my wanted job in the future.
