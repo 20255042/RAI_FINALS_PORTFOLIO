@@ -100,7 +100,7 @@ const Projects = () => {
             <Card.Body>
               <Card.Title style={{ color: "#3c9dc7" }}>Contact Section</Card.Title>
               <Card.Text style={{ color: "#C6BFBB" }}>users can send messages to the website administrators.</Card.Text>
-              <Button variant="outline-info" href="/contact" target="_blank">View Project</Button>
+              <Button variant="outline-info" href="#/contact" target="_blank">View Project</Button>
             </Card.Body>
           </Card>
         </Col>
