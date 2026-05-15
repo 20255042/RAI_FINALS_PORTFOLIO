@@ -1,10 +1,10 @@
 import { Container, Row, Col, Card } from "react-bootstrap";
-import Cert1 from './images/cert1.png';
-import Cert2 from './images/cert2.png';
-import Cert3 from './images/cert3.png';
-import Cert4 from './images/cert4.png';
-import Cert5 from './images/cert5.png';
-import Cert6 from './images/cert6.png';
+import Cert1 from './images/Cert1.png';
+import Cert2 from './images/Cert2.png';
+import Cert3 from './images/Cert3.png';
+import Cert4 from './images/Cert4.png';
+import Cert5 from './images/Cert5.png';
+import Cert6 from './images/Cert6.png';
 const Certificate = () => {
   return (
     <Container className="py-5">
