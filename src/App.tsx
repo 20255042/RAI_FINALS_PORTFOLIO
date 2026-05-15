@@ -9,7 +9,9 @@ import Contact from "./pages/Contact";
 import Admin from "./pages/Admin";
 import Login from "./pages/Login";
 import About from "./pages/About";
+import Certificate from "./pages/Certificate";
 import './App.css'
+
 
 function App(){
   return(
@@ -25,7 +27,7 @@ function App(){
             <Nav.Link href="#/about">About</Nav.Link>
             <Nav.Link href="#/project">Project</Nav.Link>
             <Nav.Link href="#/contact">Contact</Nav.Link>
-            
+            <Nav.Link href="#/certificate">Certificates</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
@@ -36,6 +38,7 @@ function App(){
         <Route path="/project" element={<Project />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/certificate" element={<Certificate />} />57
         <Route path="/admin" element={<Admin />} />
         <Route path="/login" element={<Login />} />
 
